@@ -2,6 +2,7 @@
 Basic color guessing game based on the RGB value. Build using HTML, CSS and JavaScript.
 
 # Features
+- Responsive UI
 - Display five random clours each time.
 - On selection of wrong color generates a notification and hides.
 - On selection of right color generates a notification and stays.
