@@ -1,0 +1,87 @@
+*{margin: 0px; padding:0px;box-sizing: border-box;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+body{
+    height: 100vh;
+    width:100vw;
+}
+h1{
+background-color:rgb(46, 45, 45);
+font-size: 3rem;
+color: white;
+padding: 10px;
+text-transform: uppercase;
+}
+#colourValue{
+background-color:grey;
+font-size: 2rem;
+color: ivory;
+padding: 10px;
+}
+.colourButton{
+    margin:10px;
+    background-color: rgb(255,0,0);
+    min-width: 150px;
+    min-height: 150px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: none;
+    margin: 10px;
+    opacity: .85;
+    transition: opacity border .1 ease;
+    -webkit-transition: opacity border .1 ease;
+    -moz-transition: opacity border .1 ease;;
+}
+.colourButton:hover{
+    opacity:1;
+    cursor: pointer;
+    border: grey solid 4px;
+}
+.colourButton:focus{
+    outline: none;
+    transform: rotateZ(180);
+}
+
+#buttonWrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    background-color: rgb(236, 236, 236);
+}
+
+h1{
+    text-align: center;
+}
+
+#colourValue{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#answer{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#reset{
+    text-align: center;
+    background-color: rgb(80, 78, 78);
+    padding: 15px;
+}
+
+#resetButton{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    transition: font-size .1 ease;
+}
+#resetButton:hover{
+    font-size: 1.1rem;
+
+}
